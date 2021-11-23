@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 #ignore config
 config.py   
+$ echo "config.py" >> .gitignore
+$ git rm --cached config.py
+
